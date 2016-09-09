@@ -1,0 +1,21 @@
+{
+  "name": "xen3r0.github.io",
+  "homepage": "https://github.com/Xen3r0/xen3r0.github.io",
+  "authors": [
+    "Manuel Santisteban <manuel.santisteban@yahoo.fr>"
+  ],
+  "description": "Manuel Santisteban // Analyse programmeur // CV",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}
