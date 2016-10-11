@@ -188,12 +188,6 @@ TIMELINE
     margin-left: 20px;
 }
 
-/*@media (max-width: 767px) {*/
-    /*.timeline li .description {*/
-        /*margin-left: 20px;*/
-    /*}*/
-/*}*/
-
 .timeline li .description:after {
     content: '';
     position: absolute;
