@@ -22,27 +22,6 @@ body {
     }
 }
 
-.progress {
-    height: 30px;
-    border-radius: 0px;
-}
-
-.progress-blue {
-    background-color: #90CAF9;
-}
-
-.progress-bar {
-    text-align: left;
-    text-transform: uppercase;
-    padding: 5px;
-    font-size: 14px;
-    font-weight: 800;
-}
-
-.progress-blue .progress-bar {
-    background-color: #1e88e5;
-}
-
 .label {
     border-radius: 1px;
     padding: .3em .6em;
@@ -241,9 +220,33 @@ EXPERIENCE
     font-size: 1.2em;
     line-height: 1.5em;
 }
-
 /*************************************
-EXPERIENCE
+COMPETENCES
+*************************************/
+.progress {
+    height: 30px;
+    border-radius: 0;
+}
+.progress-blue {
+    background-color: #90CAF9;
+}
+.progress-bar {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.progress-blue .progress-bar {
+    background-color: #1e88e5;
+}
+@media print {
+    ul.competences {
+        font-size: 14px;
+    }
+}
+/*************************************
+CONTACT
 *************************************/
 .contact i {
     width: 30px;
