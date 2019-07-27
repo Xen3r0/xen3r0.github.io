@@ -1,0 +1,30 @@
+[
+  {
+    "percent": 100,
+    "title": "HTML"
+  },
+  {
+    "percent": 100,
+    "title": "JS / AngularJS / jQuery"
+  },
+  {
+    "percent": 100,
+    "title": "TypeScript / Angular 8"
+  },
+  {
+    "percent": 100,
+    "title": "PHP 7 / Symfony 4"
+  },
+  {
+    "percent": 80,
+    "title": "CSS / LESS / SASS"
+  },
+  {
+    "percent": 70,
+    "title": "Jenkins CI"
+  },
+  {
+    "percent": 30,
+    "title": "C++"
+  }
+]

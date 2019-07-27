@@ -1,0 +1,44 @@
+[
+  {
+    "href": "mailto:manuel.santisteban@orange.fr",
+    "icon": "email",
+    "custom": false,
+    "title": "manuel.santisteban@orange.fr"
+  },
+  {
+    "href": "https://github.com/xen3r0",
+    "icon": "github",
+    "custom": true,
+    "title": "https://github.com/xen3r0"
+  },
+  {
+    "href": "https://twitter.com/xen3r0",
+    "icon": "twitter",
+    "custom": true,
+    "title": "@xen3r0"
+  },
+  {
+    "href": "https://www.linkedin.com/in/santisteban-manuel/",
+    "icon": "linkedin",
+    "custom": true,
+    "title": "@santisteban-manuel"
+  },
+  {
+    "href": "https://goo.gl/maps/TV564hqVnYb1dq4bA",
+    "icon": "place",
+    "custom": false,
+    "title": "Montélimar, France"
+  },
+  {
+    "href": "https://github.com/xen3r0/xen3r0.github.io-src",
+    "icon": "github",
+    "custom": true,
+    "title": "Source"
+  },
+  {
+    "href": "https://github.com/xen3r0/xen3r0.github.io",
+    "icon": "github",
+    "custom": true,
+    "title": "Build"
+  }
+]

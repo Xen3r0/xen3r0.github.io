@@ -1,0 +1,40 @@
+[
+  {
+    "year": 2005,
+    "title": "BEP Électrotechnique",
+    "location": "Léonard De Vinci (Pierrelatte, France)"
+  },
+  {
+    "year": 2007,
+    "title": "BAC STI Génie électrotechnique",
+    "location": "St André (Le Teil, France)"
+  },
+  {
+    "year": 2009,
+    "title": "BTS IG Développeur d'application",
+    "location": "Louise Michel (Grenoble, France)"
+  },
+  {
+    "year": 2010,
+    "title": "Licence professionnelle SIL CASIR",
+    "location": "IUT Valence (Valence, France)"
+  },
+  {
+    "year": 2015,
+    "title": "Formation Symfony",
+    "location": "Lexik",
+    "href": "http://formations.lexik.fr/formation-symfony-3/"
+  },
+  {
+    "year": 2015,
+    "title": "Formation AngularJS",
+    "location": "Apollo Formation",
+    "href": "http://www.apollo-formation.com/informatique/langages-de-developpement/angularjs.html"
+  },
+  {
+    "year": 2018,
+    "title": "Formation Angular",
+    "location": "Sfeir School",
+    "href": "https://www.sfeir.com/formation/school/angular-200/"
+  }
+]
