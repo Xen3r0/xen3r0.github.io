@@ -33,12 +33,12 @@
     "href": "https://github.com/xen3r0/xen3r0.github.io-src",
     "icon": "github",
     "custom": true,
-    "title": "Source"
+    "title": "https://github.com/xen3r0/xen3r0.github.io-src"
   },
   {
     "href": "https://github.com/xen3r0/xen3r0.github.io",
     "icon": "github",
     "custom": true,
-    "title": "Build"
+    "title": "https://github.com/xen3r0/xen3r0.github.io"
   }
 ]
