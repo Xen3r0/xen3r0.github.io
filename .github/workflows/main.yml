@@ -20,5 +20,6 @@ jobs:
                 env:
                     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 run: |
+                    echo "legacy-peer-deps=true" >> .npmrc
                     npm install
                     npm run ng -- deploy
