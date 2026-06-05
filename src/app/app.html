@@ -1,0 +1,21 @@
+<div class="bg-layer" aria-hidden="true"></div>
+<div class="page">
+  <app-header />
+  <main class="content">
+    <app-hero />
+    <app-about />
+    <app-experience />
+    <app-education />
+    <app-skills />
+    <app-interests />
+
+    <footer class="footer">
+      <div class="footer-line">{{ 'footer.line' | translate }}</div>
+      <button class="footer-up" (click)="scrollTop()">
+        <app-icon name="up" [size]="15" />
+        {{ 'footer.back' | translate }}
+      </button>
+      <div class="footer-copy">© {{ currentYear }} Manuel Santisteban — github.com/xen3r0</div>
+    </footer>
+  </main>
+</div>

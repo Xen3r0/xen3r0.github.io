@@ -1,7 +1,0 @@
-<div class="social-icons">
-    @for (item of items$ | async; track item) {
-        <a class="social-icon" [href]="item.href"><i class="{{item.iconSet}} {{item.icon}}"></i></a>
-    }
-
-    <a class="social-icon" href="/cv.pdf"><i class="far fa-file-pdf"></i></a>
-</div>

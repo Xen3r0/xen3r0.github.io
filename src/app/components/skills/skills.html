@@ -1,0 +1,26 @@
+<section class="section" id="skills">
+  <div class="sec-head">
+    <div class="prompt">
+      <span class="prompt-sign">$</span>
+      <span>ls skills/</span>
+      <span class="prompt-cursor" aria-hidden="true"></span>
+    </div>
+    <h2 class="sec-title">
+      <span class="sec-num">04</span>
+      {{ 'skills.title' | translate }}
+    </h2>
+  </div>
+
+  <div class="skills-grid">
+    @for (group of groups(); track $index) {
+      <div class="skill-group">
+        <div class="skill-label">{{ group.label }}</div>
+        <div class="tag-row">
+          @for (skill of group.items; track skill) {
+            <span class="tag tag-lg">{{ skill }}</span>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</section>

@@ -1,33 +1,108 @@
 {
-	"Expériences": "Work experiences",
-	"Team leader WinLassie Online": "Team leader WinLassie Online",
-	"Responsable de la ré-écriture complète de l'application historique en application web 3 tiers (API Rest Symfony, Frontend Angular, base de données PostgreSQL).": "Responsible for the complete rewrite of the legacy application into a 3-tier web application (Symfony REST API, Angular frontend, PostgreSQL database).",
-	"Mise en place de bonnes pratiques, outils DevOps, socle de l'application, documentations techniques.": "Implemented best practices, DevOps tools, application foundation, and technical documentation.",
-	"Ce projet d'application web m'a permis de manager une équipe allant jusqu'à 10 personnes travaillant à la fois sur de la R&D et de la maintenance applicative.": "This web application project allowed me to manage a team of up to 10 people, working simultaneously on R&amp;D and application maintenance.",
-	"Février 2016 - Aujourd'hui": "February 2016 - Today",
-	"Team leader WinLassie classique": "Team leader WinLassie classic",
-	"Application historique écrite en WinDev afin d'améliorer techniquement le produit et de commencer à intégrer les bonnes pratiques.": "Legacy application written in WinDev, with the goal of improving the product technically and beginning to integrate best practices.",
-	"Mars 2014 - Janvier 2016": "March 2014 - January 2016",
-	"Développeur": "Developer",
-	"Développeur web/application principalement pour le logiciel WinLassie, logiciel de santé, hygiène, sécurité au travail.": "Web/Application Developer primarily for the WinLassie software, a tool focused on health, hygiene, and workplace safety.",
-	"Septembre 2010 - Février 2014": "September 2010 - February 2014",
-	"Compétences": "Skills",
-	"Langages": "Languages",
-	"Outils": "Tools",
-	"Loisirs": "Hobbies",
-	"Passionné de plein air, j'apprécie de passer du temps à explorer de nouveaux sentiers à pied, que ce soit en solo ou en groupe.": "A nature enthusiast, I enjoy spending time exploring new hiking trails, whether solo or in a group.",
-	"La marche me permet de me ressourcer, de profiter de la nature et de maintenir un mode de vie actif tout en découvrant de magnifiques paysages.": "Hiking allows me to recharge, enjoy nature, and maintain an active lifestyle while discovering beautiful landscapes.",
-	"En dehors du monde du développement, j'aime également consacrer du temps à la cuisine.": "Outside of the development world, I also enjoy spending time in the kitchen.",
-	"J'apprécie d'expérimenter de nouvelles recettes et de créer des plats savoureux.": "I love experimenting with new recipes and creating delicious dishes.",
-	"La cuisine est pour moi une source de créativité et de détente, et partager un repas bien préparé avec des amis et la famille est toujours un moment de plaisir.": "Cooking is a source of creativity and relaxation for me, and sharing a well-prepared meal with friends and family is always a moment of joy.",
-	"Par ailleurs, je suis passionné par l'actualité technologique et je consacre une partie de mon temps libre à suivre les tendances et les innovations dans ce domaine en constante évolution.": "Also, I am passionate about technological news and dedicate part of my free time to keeping up with trends and innovations in this ever-evolving field.",
-	"Que ce soit par le biais de lectures, de podcasts ou de forums en ligne, je suis constamment en quête de nouvelles connaissances et de nouvelles idées.": "Whether through reading, listening to podcasts, or participating in online forums, I am constantly seeking new knowledge and fresh ideas.",
-	"Formations": "Educations",
-	"À propos de moi": "About me",
-	"Je suis quelqu'un d'enthousiaste et de dévoué, je suis passionné par le développement et les nouvelles technologies.": "I'm an enthusiastic and dedicated individual, passionate about development and new technologies.",
-	"Fort de 14 années d'expérience dans le domaine du développement, j'ai eu le privilège de diriger une équipe de développeurs talentueux et passionnés.": "With 14 years of experience in the app development, I have had the privilege of leading a talented and passionate team of developers.",
-	"Ma capacité à cultiver un environnement de travail collaboratif et inspirant a permis à mon équipe de réaliser des projets innovants et de surpasser les attentes.": "My ability to cultivate a collaborative and inspiring work environment has enabled my team to achieve innovative projects and exceed expectations.",
-	"Mon approche centrée sur la communication ouverte, la collaboration et la résolution proactive des problèmes a été la clé de nombreux succès que j'ai rencontrés au cours de mes missions.": "My approach, centered on open communication, collaboration, and proactive problem-solving, has been the key to the many successes I have encountered throughout my missions.",
-	"Je crois fermement en l'importance de la reconnaissance et de la célébration des succès collectifs, car elles renforcent le sentiment d'appartenance et stimulent la motivation.": "I firmly believe in the importance of recognizing and celebrating collective achievements, as it strengthens the sense of belonging and boosts motivation.",
-	"Avec une solide expérience technique et un engagement indéfectible envers l'excellence, je suis toujours prêt à relever de nouveaux défis passionnants et à contribuer de manière significative au succès de votre entreprise.": "With a strong technical background and an unwavering commitment to excellence, I am always ready to take on new exciting challenges and make a meaningful contribution to the success of your company."
+  "nav": {
+    "about": "about",
+    "experience": "experience",
+    "education": "education",
+    "skills": "skills",
+    "interests": "interests"
+  },
+  "hero": {
+    "name": "Manuel Santisteban",
+    "role": "Team Leader / Senior Software Engineer",
+    "meta": ["37 y.o.", "Montélimar, France", "15 years of experience"],
+    "status": "Open to new challenges",
+    "scroll": "scroll"
+  },
+  "about": {
+    "title": "About",
+    "body": [
+      "Technical manager with 15 years of experience leading development teams (up to 11 people) and shipping complex, high-traffic web applications. Symfony and Angular expert, I ensure product quality, performance and scalability while building a lasting DevOps and Agile culture.",
+      "My approach is grounded in open communication and proactive problem-solving. I run Scrum ceremonies, prioritise the product roadmap with stakeholders, and invest in my team — pair-programming, structured code reviews, individual growth plans.",
+      "Always keeping up with the latest in tech, I firmly believe that a product's quality depends as much on solid architecture as on the cohesion of the team that builds it."
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Team Leader",
+        "company": "Gamma Software — WinLassie",
+        "period": "March 2014 — Present",
+        "current": true,
+        "summary": "Led a cross-functional team of 11 developers (back-end, front-end, QA). Set up a full CI/CD pipeline cutting deployment time by 75%. Ran Scrum ceremonies, prioritised the product roadmap, recruited and onboarded 4 developers. Active mentoring through pair-programming and structured code reviews.",
+        "stack": ["PHP 8 / Symfony 7", "Angular", "Node.js / Nest.js", "PostgreSQL", "Docker", "GitLab CI/CD"]
+      },
+      {
+        "role": "Lead Developer",
+        "company": "Gamma Software — WinLassie",
+        "period": "September 2010 — March 2014",
+        "current": false,
+        "summary": "Designed and drove the web architecture (desktop-to-web migration with Symfony + Angular). Mentored 3 junior developers. Established development standards and DevOps tooling (Docker, GitLab CI).",
+        "stack": ["Symfony", "Angular", "Docker", "GitLab CI", "Architecture"]
+      },
+      {
+        "role": "Software Analyst",
+        "company": "Gamma Software — WinLassie",
+        "period": "2009 — 2010",
+        "current": false,
+        "summary": "Development and maintenance of the business application in WinDev for WinLassie — an occupational health, hygiene and safety software solution.",
+        "stack": ["WinDev", "WinLassie"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      { "name": "Angular training", "school": "Sfeir School", "year": "2018" },
+      { "name": "Symfony training", "school": "Lexik", "year": "2015" },
+      { "name": "AngularJS training", "school": "Apollo Formation", "year": "2015" },
+      { "name": "BSc Computer Systems & Software", "school": "IUT de Valence — Valence, France", "year": "2010" },
+      { "name": "BTS Computer Science", "school": "Lycée Louise Michel — Grenoble, France", "year": "2009" }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "label": "// languages & frameworks",
+        "items": ["PHP 8 / Symfony", "JavaScript", "TypeScript", "Angular", "Node.js / Nest.js", "HTML5", "CSS3 / Sass"]
+      },
+      {
+        "label": "// tools & environments",
+        "items": ["Git", "GitLab CI/CD", "Docker", "PostgreSQL", "npm", "Jenkins", "Jira"]
+      },
+      {
+        "label": "// architecture & quality",
+        "items": ["REST API", "TDD", "Clean Code", "SOLID", "Automated Testing", "Code Review"]
+      },
+      {
+        "label": "// management & leadership",
+        "items": ["Scrum / Kanban", "Sprint Planning", "Hiring & Onboarding", "Coaching & Mentoring", "Roadmap Management", "Reporting"]
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "items": [
+      {
+        "tag": "tech",
+        "title": "Tech watch",
+        "body": "Passionate about tech news, I spend part of my free time following trends and innovations. Reading, podcasts, forums: I'm constantly seeking new knowledge and ideas."
+      },
+      {
+        "tag": "cooking",
+        "title": "Cooking",
+        "body": "Beyond development, I enjoy spending time cooking — experimenting with new recipes and creating tasty dishes. A source of creativity and relaxation, and sharing a well-prepared meal is always a pleasure."
+      },
+      {
+        "tag": "outdoor",
+        "title": "Outdoors & hiking",
+        "body": "An outdoor enthusiast, I love exploring new trails on foot, solo or in a group. Walking lets me recharge, enjoy nature and keep an active lifestyle while discovering beautiful landscapes."
+      }
+    ]
+  },
+  "footer": {
+    "line": "Designed & coded with care — black background, neon green, lots of coffee.",
+    "back": "back to top"
+  }
 }

@@ -1,17 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr" data-bg="grid">
 <head>
-    <meta charset="utf-8">
-    <title>Manuel Santisteban - Team leader / Full stack developer</title>
-    <base href="/">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Manuel Santisteban">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Manuel Santisteban — Team Leader / Full Stack Developer</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CV de Manuel Santisteban — Team Leader / Full Stack Developer">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      var saved = localStorage.getItem('cv-theme');
+      var t = (saved === 'light' || saved === 'dark')
+        ? saved
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+      document.documentElement.setAttribute('data-glow', t === 'light' ? 'off' : 'on');
+    })();
+  </script>
 </head>
-<body id="page-top">
-    <app-root></app-root>
+<body>
+  <app-root></app-root>
 </body>
 </html>

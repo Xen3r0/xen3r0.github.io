@@ -1,0 +1,18 @@
+<section class="section">
+  <div class="sec-head">
+    <div class="prompt">
+      <span class="prompt-sign">$</span>
+      <span>cat about.md</span>
+      <span class="prompt-cursor" aria-hidden="true"></span>
+    </div>
+    <h2 class="sec-title">
+      <span class="sec-num">01</span>
+      {{ 'about.title' | translate }}
+    </h2>
+  </div>
+  <div class="about-body">
+    @for (p of body(); track $index) {
+      <p>{{ p }}</p>
+    }
+  </div>
+</section>

@@ -1,33 +1,108 @@
 {
-	"Expériences": "Expériences",
-	"Team leader WinLassie Online": "Team leader WinLassie Online",
-	"Responsable de la ré-écriture complète de l'application historique en application web 3 tiers (API Rest Symfony, Frontend Angular, base de données PostgreSQL).": "Responsable de la ré-écriture complète de l'application historique en application web 3 tiers (API Rest Symfony, Frontend Angular, base de données PostgreSQL).",
-	"Mise en place de bonnes pratiques, outils DevOps, socle de l'application, documentations techniques.": "Mise en place de bonnes pratiques, outils DevOps, socle de l'application, documentations techniques.",
-	"Ce projet d'application web m'a permis de manager une équipe allant jusqu'à 10 personnes travaillant à la fois sur de la R&D et de la maintenance applicative.": "Ce projet d'application web m'a permis de manager une équipe allant jusqu'à 10 personnes travaillant à la fois sur de la R&D et de la maintenance applicative.",
-	"Février 2016 - Aujourd'hui": "Février 2016 - Aujourd'hui",
-	"Team leader WinLassie classique": "Team leader WinLassie classique",
-	"Application historique écrite en WinDev afin d'améliorer techniquement le produit et de commencer à intégrer les bonnes pratiques.": "Application historique écrite en WinDev afin d'améliorer techniquement le produit et de commencer à intégrer les bonnes pratiques.",
-	"Mars 2014 - Janvier 2016": "Mars 2014 - Janvier 2016",
-	"Développeur": "Développeur",
-	"Développeur web/application principalement pour le logiciel WinLassie, logiciel de santé, hygiène, sécurité au travail.": "Développeur web/application principalement pour le logiciel WinLassie, logiciel de santé, hygiène, sécurité au travail.",
-	"Septembre 2010 - Février 2014": "Septembre 2010 - Février 2014",
-	"Compétences": "Compétences",
-	"Langages": "Langages",
-	"Outils": "Outils",
-	"Loisirs": "Loisirs",
-	"Passionné de plein air, j'apprécie de passer du temps à explorer de nouveaux sentiers à pied, que ce soit en solo ou en groupe.": "Passionné de plein air, j'apprécie de passer du temps à explorer de nouveaux sentiers à pied, que ce soit en solo ou en groupe.",
-	"La marche me permet de me ressourcer, de profiter de la nature et de maintenir un mode de vie actif tout en découvrant de magnifiques paysages.": "La marche me permet de me ressourcer, de profiter de la nature et de maintenir un mode de vie actif tout en découvrant de magnifiques paysages.",
-	"En dehors du monde du développement, j'aime également consacrer du temps à la cuisine.": "En dehors du monde du développement, j'aime également consacrer du temps à la cuisine.",
-	"J'apprécie d'expérimenter de nouvelles recettes et de créer des plats savoureux.": "J'apprécie d'expérimenter de nouvelles recettes et de créer des plats savoureux.",
-	"La cuisine est pour moi une source de créativité et de détente, et partager un repas bien préparé avec des amis et la famille est toujours un moment de plaisir.": "La cuisine est pour moi une source de créativité et de détente, et partager un repas bien préparé avec des amis et la famille est toujours un moment de plaisir.",
-	"Par ailleurs, je suis passionné par l'actualité technologique et je consacre une partie de mon temps libre à suivre les tendances et les innovations dans ce domaine en constante évolution.": "Par ailleurs, je suis passionné par l'actualité technologique et je consacre une partie de mon temps libre à suivre les tendances et les innovations dans ce domaine en constante évolution.",
-	"Que ce soit par le biais de lectures, de podcasts ou de forums en ligne, je suis constamment en quête de nouvelles connaissances et de nouvelles idées.": "Que ce soit par le biais de lectures, de podcasts ou de forums en ligne, je suis constamment en quête de nouvelles connaissances et de nouvelles idées.",
-	"Formations": "Formations",
-	"À propos de moi": "À propos de moi",
-	"Je suis quelqu'un d'enthousiaste et de dévoué, je suis passionné par le développement et les nouvelles technologies.": "Je suis quelqu'un d'enthousiaste et de dévoué, je suis passionné par le développement et les nouvelles technologies.",
-	"Fort de 14 années d'expérience dans le domaine du développement, j'ai eu le privilège de diriger une équipe de développeurs talentueux et passionnés.": "Fort de 14 années d'expérience dans le domaine du développement, j'ai eu le privilège de diriger une équipe de développeurs talentueux et passionnés.",
-	"Ma capacité à cultiver un environnement de travail collaboratif et inspirant a permis à mon équipe de réaliser des projets innovants et de surpasser les attentes.": "Ma capacité à cultiver un environnement de travail collaboratif et inspirant a permis à mon équipe de réaliser des projets innovants et de surpasser les attentes.",
-	"Mon approche centrée sur la communication ouverte, la collaboration et la résolution proactive des problèmes a été la clé de nombreux succès que j'ai rencontrés au cours de mes missions.": "Mon approche centrée sur la communication ouverte, la collaboration et la résolution proactive des problèmes a été la clé de nombreux succès que j'ai rencontrés au cours de mes missions.",
-	"Je crois fermement en l'importance de la reconnaissance et de la célébration des succès collectifs, car elles renforcent le sentiment d'appartenance et stimulent la motivation.": "Je crois fermement en l'importance de la reconnaissance et de la célébration des succès collectifs, car elles renforcent le sentiment d'appartenance et stimulent la motivation.",
-	"Avec une solide expérience technique et un engagement indéfectible envers l'excellence, je suis toujours prêt à relever de nouveaux défis passionnants et à contribuer de manière significative au succès de votre entreprise.": "Avec une solide expérience technique et un engagement indéfectible envers l'excellence, je suis toujours prêt à relever de nouveaux défis passionnants et à contribuer de manière significative au succès de votre entreprise."
+  "nav": {
+    "about": "à_propos",
+    "experience": "expérience",
+    "education": "formation",
+    "skills": "compétences",
+    "interests": "loisirs"
+  },
+  "hero": {
+    "name": "Manuel Santisteban",
+    "role": "Team Leader / Senior Software Engineer",
+    "meta": ["37 ans", "Montélimar, France", "15 ans d'expérience"],
+    "status": "Ouvert aux nouveaux défis",
+    "scroll": "défiler"
+  },
+  "about": {
+    "title": "À propos",
+    "body": [
+      "Manager technique avec 15 ans d'expérience dans la direction d'équipes de développement (jusqu'à 11 personnes) et la mise en production d'applications web complexes à forte volumétrie. Expert Symfony et Angular, j'assure la qualité, la performance et la scalabilité des produits tout en instaurant une culture DevOps et Agile durable.",
+      "Mon approche est centrée sur la communication ouverte et la résolution proactive des problèmes. J'anime les rituels Scrum, priorise la roadmap produit avec les parties prenantes, et m'investis dans le mentorat de mon équipe — pair-programming, revues de code structurées, plans de montée en compétences.",
+      "Toujours en veille sur les évolutions techniques, je crois fermement que la qualité d'un produit dépend autant de la solidité de l'architecture que de la cohésion de l'équipe qui le construit."
+    ]
+  },
+  "experience": {
+    "title": "Expérience",
+    "items": [
+      {
+        "role": "Team Leader",
+        "company": "Gamma Software — WinLassie",
+        "period": "Mars 2014 — Présent",
+        "current": true,
+        "summary": "Pilotage d'une équipe cross-fonctionnelle de 11 développeurs (back-end, front-end, QA). Mise en place d'une chaîne CI/CD complète réduisant le temps de déploiement de 75 %. Animation des rituels Scrum, priorisation de la roadmap produit, recrutement et onboarding de 4 développeurs. Mentorat actif via pair-programming et revues de code structurées.",
+        "stack": ["PHP 8 / Symfony 7", "Angular", "Node.js / Nest.js", "PostgreSQL", "Docker", "GitLab CI/CD"]
+      },
+      {
+        "role": "Lead Developer",
+        "company": "Gamma Software — WinLassie",
+        "period": "Septembre 2010 — Mars 2014",
+        "current": false,
+        "summary": "Conception et pilotage de l'architecture web (migration de l'application desktop vers Symfony + Angular). Encadrement technique de 3 développeurs juniors. Mise en place des standards de développement et des outils DevOps (Docker, GitLab CI).",
+        "stack": ["Symfony", "Angular", "Docker", "GitLab CI", "Architecture"]
+      },
+      {
+        "role": "Analyste Programmeur",
+        "company": "Gamma Software — WinLassie",
+        "period": "2009 — 2010",
+        "current": false,
+        "summary": "Développement et maintenance de l'application métier sur WinDev pour WinLassie — solution de santé, hygiène et sécurité au travail.",
+        "stack": ["WinDev", "WinLassie"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      { "name": "Formation Angular", "school": "Sfeir School", "year": "2018" },
+      { "name": "Formation Symfony", "school": "Lexik", "year": "2015" },
+      { "name": "Formation AngularJS", "school": "Apollo Formation", "year": "2015" },
+      { "name": "Licence Systèmes Informatiques et Logiciels", "school": "IUT de Valence — Valence, France", "year": "2010" },
+      { "name": "BTS Informatique de gestion", "school": "Lycée Louise Michel — Grenoble, France", "year": "2009" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "groups": [
+      {
+        "label": "// langages & frameworks",
+        "items": ["PHP 8 / Symfony", "JavaScript", "TypeScript", "Angular", "Node.js / Nest.js", "HTML5", "CSS3 / Sass"]
+      },
+      {
+        "label": "// outils & environnements",
+        "items": ["Git", "GitLab CI/CD", "Docker", "PostgreSQL", "npm", "Jenkins", "Jira"]
+      },
+      {
+        "label": "// architecture & qualité",
+        "items": ["REST API", "TDD", "Clean Code", "SOLID", "Tests automatisés", "Code Review"]
+      },
+      {
+        "label": "// management & leadership",
+        "items": ["Scrum / Kanban", "Sprint Planning", "Recrutement & Onboarding", "Coaching & Mentorat", "Gestion de roadmap", "Reporting"]
+      }
+    ]
+  },
+  "interests": {
+    "title": "Loisirs",
+    "items": [
+      {
+        "tag": "tech",
+        "title": "Veille technologique",
+        "body": "Passionné par l'actualité tech, je consacre une partie de mon temps libre à suivre les tendances et innovations. Lectures, podcasts, forums : je suis constamment en quête de nouvelles connaissances et d'idées."
+      },
+      {
+        "tag": "cooking",
+        "title": "Cuisine",
+        "body": "En dehors du développement, j'aime consacrer du temps à la cuisine — expérimenter de nouvelles recettes et créer des plats savoureux. Une source de créativité et de détente, et partager un repas bien préparé est toujours un plaisir."
+      },
+      {
+        "tag": "outdoor",
+        "title": "Plein air & randonnée",
+        "body": "Passionné de plein air, j'aime explorer de nouveaux sentiers à pied, en solo ou en groupe. La marche me permet de me ressourcer, de profiter de la nature et de maintenir un mode de vie actif tout en découvrant de magnifiques paysages."
+      }
+    ]
+  },
+  "footer": {
+    "line": "Conçu & codé avec soin — fond noir, vert néon, beaucoup de café.",
+    "back": "retour en haut"
+  }
 }

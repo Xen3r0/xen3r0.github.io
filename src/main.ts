@@ -1,35 +1,6 @@
-import {HttpClient, provideHttpClient, withInterceptorsFromDi} from '@angular/common/http';
-import {enableProdMode, importProvidersFrom} from '@angular/core';
-import {bootstrapApplication, BrowserModule} from '@angular/platform-browser';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { appConfig } from './app/app.config';
+import { App } from './app/app';
 
-import {AppComponent} from '@app/components/app/app.component';
-
-import {environment} from './environments/environment';
-
-import {provideTranslateService, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-
-if (environment.production) {
-    enableProdMode();
-}
-
-const httpLoaderFactory: (http: HttpClient) => TranslateHttpLoader = (http: HttpClient) =>
-    new TranslateHttpLoader(http, '/i18n/', '.json');
-
-bootstrapApplication(
-    AppComponent,
-    {
-        providers: [
-            importProvidersFrom(BrowserModule),
-            provideHttpClient(withInterceptorsFromDi()),
-            provideTranslateService({
-                defaultLanguage: 'fr',
-                loader: {
-                    provide: TranslateLoader,
-                    useFactory: httpLoaderFactory,
-                    deps: [HttpClient],
-                },
-            }),
-        ]
-    }
-).catch(err => console.error(err));
+bootstrapApplication(App, appConfig)
+  .catch((err) => console.error(err));

@@ -1,0 +1,26 @@
+<section class="section" id="interests">
+  <div class="sec-head">
+    <div class="prompt">
+      <span class="prompt-sign">$</span>
+      <span>cat interests.txt</span>
+      <span class="prompt-cursor" aria-hidden="true"></span>
+    </div>
+    <h2 class="sec-title">
+      <span class="sec-num">05</span>
+      {{ 'interests.title' | translate }}
+    </h2>
+  </div>
+
+  <div class="interest-grid">
+    @for (item of items(); track $index) {
+      <article class="interest-card">
+        <div class="interest-top">
+          <span class="interest-glyph" aria-hidden="true">{{ glyphs[item.tag] }}</span>
+          <span class="interest-tag">#{{ item.tag }}</span>
+        </div>
+        <h3 class="interest-title">{{ item.title }}</h3>
+        <p class="interest-body">{{ item.body }}</p>
+      </article>
+    }
+  </div>
+</section>

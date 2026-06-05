@@ -1,0 +1,23 @@
+<section class="section" id="education">
+  <div class="sec-head">
+    <div class="prompt">
+      <span class="prompt-sign">$</span>
+      <span>cat education.log</span>
+      <span class="prompt-cursor" aria-hidden="true"></span>
+    </div>
+    <h2 class="sec-title">
+      <span class="sec-num">03</span>
+      {{ 'education.title' | translate }}
+    </h2>
+  </div>
+
+  <ul class="edu-list">
+    @for (item of items(); track $index) {
+      <li class="edu-row">
+        <span class="edu-year">{{ item.year }}</span>
+        <span class="edu-name">{{ item.name }}</span>
+        <span class="edu-school">{{ item.school }}</span>
+      </li>
+    }
+  </ul>
+</section>

@@ -1,0 +1,55 @@
+<header class="hero" id="about">
+  <div class="hero-grid">
+    <div class="hero-main">
+      <div class="prompt">
+        <span class="prompt-sign">$</span>
+        <span>whoami</span>
+        <span class="prompt-cursor" aria-hidden="true"></span>
+      </div>
+
+      <h1 class="hero-name">{{ 'hero.name' | translate }}</h1>
+      <div class="hero-role">{{ 'hero.role' | translate }}</div>
+
+      <ul class="hero-meta">
+        @for (item of heroMeta(); track $index) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+
+      <div class="hero-status">
+        <span class="dot"></span>
+        {{ 'hero.status' | translate }}
+      </div>
+
+      <div class="hero-links">
+        @for (link of links(); track link.id) {
+          <a [class]="'linkchip' + (link.id === 'cv' ? ' linkchip-cv' : '')"
+             [href]="link.href"
+             target="_blank"
+             rel="noreferrer"
+             [attr.aria-label]="link.label">
+            <app-icon [name]="link.id" [size]="17" />
+            <span class="lc-label">{{ link.label }}</span>
+            <span class="lc-val">{{ link.value }}</span>
+          </a>
+        }
+      </div>
+    </div>
+
+    <div class="hero-aside">
+      <figure class="photo-frame">
+        <img src="manuel.jpg" alt="Manuel Santisteban">
+        <figcaption class="photo-cap">
+          <span>~/manuel.jpg</span>
+          <span class="photo-live"><span class="dot"></span>online</span>
+        </figcaption>
+        <div class="scanline" aria-hidden="true"></div>
+      </figure>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <app-icon name="arrow" [size]="16" />
+    <span>{{ 'hero.scroll' | translate }}</span>
+  </div>
+</header>

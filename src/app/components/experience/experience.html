@@ -1,0 +1,32 @@
+<section class="section" id="experience">
+  <div class="sec-head">
+    <div class="prompt">
+      <span class="prompt-sign">$</span>
+      <span>cat experience.log</span>
+      <span class="prompt-cursor" aria-hidden="true"></span>
+    </div>
+    <h2 class="sec-title">
+      <span class="sec-num">02</span>
+      {{ 'experience.title' | translate }}
+    </h2>
+  </div>
+
+  <ol class="timeline">
+    @for (item of items(); track $index) {
+      <li [class]="'tl-item' + (item.current ? ' tl-current' : '')">
+        <div class="tl-node" aria-hidden="true"></div>
+        <div class="tl-period">{{ item.period }}</div>
+        <div class="tl-card">
+          <h3 class="tl-role">{{ item.role }}</h3>
+          <div class="tl-company">&#64; {{ item.company }}</div>
+          <p class="tl-summary">{{ item.summary }}</p>
+          <div class="tag-row">
+            @for (tag of item.stack; track tag) {
+              <span class="tag">{{ tag }}</span>
+            }
+          </div>
+        </div>
+      </li>
+    }
+  </ol>
+</section>

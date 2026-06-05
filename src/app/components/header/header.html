@@ -1,0 +1,74 @@
+<!-- Side nav (desktop) -->
+<nav class="sidenav">
+  <div class="sidenav-brand" role="button" tabindex="0" (click)="scrollTop()" (keydown.enter)="scrollTop()">
+    <span class="brand-mark">MS</span>
+    <span class="brand-cursor" aria-hidden="true"></span>
+  </div>
+
+  <ul class="sidenav-list">
+    <li>
+      <button class="nav-link" [class.is-active]="active() === 'about'" (click)="scrollTo('about')">
+        <span class="nav-idx">01</span>
+        <span class="nav-label">{{ 'nav.about' | translate }}</span>
+      </button>
+    </li>
+    <li>
+      <button class="nav-link" [class.is-active]="active() === 'experience'" (click)="scrollTo('experience')">
+        <span class="nav-idx">02</span>
+        <span class="nav-label">{{ 'nav.experience' | translate }}</span>
+      </button>
+    </li>
+    <li>
+      <button class="nav-link" [class.is-active]="active() === 'education'" (click)="scrollTo('education')">
+        <span class="nav-idx">03</span>
+        <span class="nav-label">{{ 'nav.education' | translate }}</span>
+      </button>
+    </li>
+    <li>
+      <button class="nav-link" [class.is-active]="active() === 'skills'" (click)="scrollTo('skills')">
+        <span class="nav-idx">04</span>
+        <span class="nav-label">{{ 'nav.skills' | translate }}</span>
+      </button>
+    </li>
+    <li>
+      <button class="nav-link" [class.is-active]="active() === 'interests'" (click)="scrollTo('interests')">
+        <span class="nav-idx">05</span>
+        <span class="nav-label">{{ 'nav.interests' | translate }}</span>
+      </button>
+    </li>
+  </ul>
+
+  <div class="sidenav-controls">
+    <div class="lang-toggle" role="group" aria-label="language">
+      <button class="lang-btn" [class.is-on]="lang.lang() === 'fr'" (click)="lang.setLang('fr')">FR</button>
+      <button class="lang-btn" [class.is-on]="lang.lang() === 'en'" (click)="lang.setLang('en')">EN</button>
+    </div>
+    <button class="theme-toggle" (click)="theme.toggle()" [attr.aria-label]="'Switch to ' + (theme.isDark() ? 'light' : 'dark') + ' mode'">
+      @if (theme.isDark()) {
+        <app-icon name="sun" [size]="16" />
+      } @else {
+        <app-icon name="moon" [size]="16" />
+      }
+    </button>
+  </div>
+</nav>
+
+<!-- Top bar (mobile) -->
+<div class="topbar">
+  <div class="topbar-brand" role="button" tabindex="0" (click)="scrollTop()" (keydown.enter)="scrollTop()">
+    <span class="brand-mark">MS</span>
+  </div>
+  <div class="topbar-controls">
+    <div class="lang-toggle" role="group" aria-label="language">
+      <button class="lang-btn" [class.is-on]="lang.lang() === 'fr'" (click)="lang.setLang('fr')">FR</button>
+      <button class="lang-btn" [class.is-on]="lang.lang() === 'en'" (click)="lang.setLang('en')">EN</button>
+    </div>
+    <button class="theme-toggle" (click)="theme.toggle()" [attr.aria-label]="'Switch to ' + (theme.isDark() ? 'light' : 'dark') + ' mode'">
+      @if (theme.isDark()) {
+        <app-icon name="sun" [size]="16" />
+      } @else {
+        <app-icon name="moon" [size]="16" />
+      }
+    </button>
+  </div>
+</div>
